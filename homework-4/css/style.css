@@ -1,0 +1,21 @@
+.blockmain {
+    box-sizing: border-box;
+    width: 1300px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 5% 0% 0% 5%;
+    overflow: auto;
+}
+
+.slideinblock {
+    padding: 25px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10%;
+    background-color: #ab8c6e;
+    height: 140px;
+    width: 180px;
+    box-shadow: inset 0px 0px 7px #000000;
+}
+
