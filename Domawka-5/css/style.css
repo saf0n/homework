@@ -1,0 +1,251 @@
+body {
+    background-color: #181E34;
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 150%;
+    color: #fff;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.header-inner {
+    display:flex;
+    align-items: center;
+}
+
+.nav-header {
+    margin-left: auto
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.nav-button {
+    border-radius: 100px;
+    background: #fff;
+    color: #2766ae;
+    padding: 14px 30px;
+    margin: 30px 36px;
+}
+
+/* =================mainCSS=============== */
+
+.hero {
+    background: url(../img/heroBG.jpg) 10% 50% / cover no-repeat;
+    padding: 120px 0px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.hero-text {
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.hero-button-one {
+    text-align: center;
+    width: 320px;
+    height: 56px;
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, #00a4cc,#2766ae 100%);
+    padding: 18px 30px 18px 30px;
+}
+
+.hero-button-two {
+    text-align: center;
+    width: 320px;
+    height: 56px;
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, #00a4cc,#2766ae 100%);
+    padding: 18px 30px 18px 30px;
+}
+
+.hero-text {
+    max-width: 436px;
+    width: 100%;
+}
+
+.text-inner {
+    color: #01a2cb;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.hero-text-one,
+.hero-text-two {
+    margin-bottom: 15px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+
+.hero-button-one,
+.hero-button-two {
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 500;
+    padding: 18px 30px 18px 30px
+}
+
+.hero-button-one {
+    background: linear-gradient(180.00deg, #00a4cc,#2766ae 100%);
+    margin-bottom: 10px;
+}
+
+.hero-button-two {
+    background: linear-gradient(129.14deg, #00a4cc 5.913%,#2766ae 91.534%);
+}
+
+.hero-buttons img {
+    margin-left: 4px;
+}
+
+
+/* ===================second main section======================== */
+
+.cards-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 120px;
+}
+
+.cards-text {
+    display: flex;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.in-card-title {
+    display: flex;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-inli-text {
+    display: flex;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.card-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 204px;
+    height: 141px;
+    display:inline-block;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    box-shadow: 4px 4px 13px 0px #050d29c2;
+    background: #197cb8;
+    padding: 28px;
+    margin-bottom: 28px;
+    margin-right: 28px;
+}
+
+.card-other {
+    margin-right: -28px;
+}
+
+.cards-down-button {
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, #00a4cc,#2766ae 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px 18px 30px;
+    width: 436px;
+    height: 56px;
+    margin: 0 232px;
+    margin-top: 2px;
+}
+
+/* ================footer====================================== */
+
+.footer-inner {
+    display: flex;
+    border-top: 1px solid #323952;
+    background: #181e34;
+    margin-top: 120px;
+}
+
+.footer-desc {
+    display: flex;
+    margin: 60px 0;
+    width: 811px;
+    height: 241px;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 267px;
+    height: 159px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 197px;
+}
+
+.footer-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
