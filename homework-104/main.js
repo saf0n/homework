@@ -46,30 +46,3 @@ for (let i = 0; i < users.length; i++) {
     }
 }
 console.log(`Количество простых пользователей ${deffUsers}`);
-
-
-
-
-
-
-
-
-
-
-
-
-// 2.
-// const numbers = [1 , 3, 5, 7, 9, 11, 13, 14]
-
-
-
-//     function searchNumber(array) {
-//         for(i = 0; i < array.length; i++) {
-//             if (array[i] > 10){
-//                 console.log(array[i])
-//             }
-//         }
-//     }
-
-//     searchNumber(numbers);
-
