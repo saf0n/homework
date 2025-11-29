@@ -24,3 +24,9 @@ caption {
     font-size: 18px;
     font-weight: 600;
 }
+
+.table__weekday td {
+        font-size: 18px;
+        font-weight: 600;
+}
+
