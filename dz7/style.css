@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+* {
+    block-size: border-box;
+}
+
+fieldset {
+    border: 1px black solid;
+    border-radius: 5%;
+    position: relative;
+}
+
+
+.container {
+    width: 250px;
+    height: 700px;
+}
+
+.container input {
+    display: flex;
+    appearance: none;
+    outline: none;
+}
+
+.ip__text,
+.ip__age,
+.ip__tel,
+.ip__mail {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.title_name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    width: 200px;
+    max-height: 120px;
+    min-height: 16px;
+    padding: 5px;
+    border: 1px #000 solid;
+    border-radius: 8px;
+}
+
+.button_cb {
+    display: flex;
+    gap: 5px;
+    align-items: start;
+    justify-content: start;
+}
+
+.button_cb input {
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    accent-color: #a55da1;
+
+}
+.button_cb label {
+    cursor: pointer;
+}
+
+.button_submit{
+    width: 90px;
+    height: 20px;
+    border: 1px #000 solid;
+    border-radius: 8px;
+    background-color:#b2a4b1;
+    color: #000;
+    transition: all, .5s;
+}
+
+.button_submit:hover {
+    opacity: 0.85;
+    background-color:#a1859f;
+    color: #4b3737;
+}
+.button_submit:active {
+    color: #140f0f;
+}
+
+.button_submit:disabled {
+    opacity: 0.7;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+.button_cb input:focus-visible::after {
+    outline: 2px #937992 solid;
+    outline-offset: 1px;
+}
+
+.button_cb input:focus-visible {
+    outline: none;
+}
+
+.button_cb input::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px #000000 solid;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 320px;
+}
+
+.button_cb input:checked::after {
+    background: url("./images/check-icon.svg") no-repeat center, #140f0f;
+}
