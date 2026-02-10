@@ -1,0 +1,46 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d3cbd9;
+    gap: 10px;
+}
+
+.header__logo img {
+    width: 80px;
+    height: 45px;
+}
+
+.header__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:#858e8a;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-transform: uppercase;
+    gap: 8px;
+}
+
+.header__phone-link {
+    color:#2c332f;
+    font-family: Ubuntu;
+    font-style: Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 155px;
+    height: 21px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.header__phone a:hover {
+    color: #3596ed;
+}
