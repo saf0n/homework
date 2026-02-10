@@ -21,6 +21,7 @@
     justify-content: center;
     flex-direction: row;
     margin-bottom: 140px;
+	gap:28px;
 }
 
 .hero__title-text {
@@ -173,3 +174,4 @@
 .news-link:hover::after {
     transform: translateX(5px);
 }
+
